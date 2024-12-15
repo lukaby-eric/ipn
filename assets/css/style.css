@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+
+body{
+    background: black;
+}
+/* *************************************  NAVBAR   **************************************** */
+.navbar-brand img{
+    width: 200px;
+}
+#first-navbar{
+    display: flex;
+    float: right;
+    position: relative;
+    z-index: 222;
+}
+#first-navbar a{
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+#second-navbar{
+    display: flex;
+    float: right;
+    background: #2b2a2a;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: -70px;
+    position: relative;
+    z-index: 222;
+}
+#second-navbar a{
+    color: white;
+}
+#second-navbar a:hover{
+    background-color: black;
+    border-radius: 10px;
+}
+#firstnav-btn{
+    display: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+}
+#secondnav-btn{
+    display: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+/* --------------      HOME    ------------------ */
+
+#home{
+    position: relative;
+    background: url(../images/fire\ fightwrs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: calc(100%-40px);
+    margin: 0 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+}
+#home-container{
+    background: black;
+    padding: 50px 20px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    
+}
+#home-container h5{
+    line-height: 1.5;
+}
+#home-container button{
+    background: #f47920;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+#home-container button:hover{
+    background: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+/* --------------    SERVISES    ----------------- */
+#services{
+    display: flex;
+    align-items: center;
+}
+#services .col-md-8 .card{
+    
+    background: #222222;
+    color: white;
+    padding: 40px 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+#services .col-md-8 h5{
+    line-height: 1.5;
+    font-weight: 100;
+}
+#services .row .col-md-4 .card{
+    position: relative;
+    background: url(../images/fire\ copy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+#services .col-md-4 a{
+    background: #ffffff;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+#services .col-md-4 a:hover{
+    background: #f47920;
+}
+
+
+/* ---------------------------------------------------------- IPN Network Benefits ------------------------------------------------------------------------ */
+
+
+#IPNnetwork .container{
+    background: #2b2a2a;
+    border-radius: 10px;
+}
+#IPNnetwork .container h2{
+    text-align: center;
+    color: #f47920;
+}
+#IPNnetwork .card{
+    border: none;
+    outline: none;
+    background: #2b2a2a;
+    text-align: center;
+}
+#IPNnetwork .card img{
+    width: 100px;
+    height: 100px;
+}
+.carousel .carousel-item {
+	color: #fff;
+	overflow: hidden;
+	min-height: 120px;
+}
+
+.carousel .testimonial {
+	position: relative;
+}
+
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 1px 3px;
+	box-sizing: border-box;
+}
+.carousel-indicators li {	
+	background: #e2e2e2;
+	border: 4px solid #fff;
+}
+.carousel-indicators li.active {
+	color: #fff;
+	background: #f47920;    
+	border: 5px double;    
+}
+/* ---------------------------------------------------------- IPN Network Benefits ends ------------------------------------------------------------------------ */
+
+#incidents .col-md-6 .card{
+    border: none;
+    outline: none;
+    background: #222222;
+    color: white;
+    padding: 40px 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+#incidents .col-md-3 h5{
+    line-height: 1.5;
+    font-weight: 100;
+}
+#incidents .row .col-md-3 .card{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+#police{
+    background: url(../images/police.jpg);
+}
+#rescue{
+    background: url(../images/helicopter.jpg);
+}
+#incidents .col-md-3 a{
+    background: #ffffff;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+#incidents .col-md-3 a:hover{
+    background: #f47920;
+}
+
+/* member */
+
+#member .card{
+    height: 100%;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 90px;
+    border-radius: 10px;
+}
+#member .card button{
+    position: absolute;
+    bottom: 20px;
+}
+#member .card i{
+    font-size: 25px;
+    font-weight: 100;
+}
+#member .container h2{
+    text-align: center;
+    color: #f47920;
+    margin-bottom: 40px;
+}
+
+
+#divider{
+    background: #f47920;
+    height: 20px;
+    width: 100%;
+}
+/* footer */
+
+#footer img{
+    height: 70px;
+}
+#footer-links{
+    margin-bottom: 10px;
+}
+#footer-links li{
+    padding: 5px 0;
+}
+#footer-links a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0;
+}
+#footer-links a::after{
+    content: "";
+    height: 2px;
+    width: 170px;
+    background: #f47920;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#footer-links a:hover{
+    color: #f47920;
+}
+#footer-links i{
+    background: #fff;
+    padding: 10px 10px 0 10px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#footer-links i:hover{
+    background: #2e3192;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#footer-logo{
+    color: white;
+}
+#footer-logo a{
+    color: white;
+    text-decoration: underline;
+    margin-right: 8px;
+}
+#footer-logo a:hover{
+    color: #f47920;
+    text-decoration: dotted;
+}
