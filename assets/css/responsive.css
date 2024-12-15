@@ -58,6 +58,10 @@
         height: 80px;
         margin-bottom: -30px;
     }
+    #divide{
+        display: block;
+    }
+    
 }
 @media only screen and (max-width: 460px){
     .navbar-brand img{
@@ -78,6 +82,21 @@
     #home button{
         font-size: 10px;
     }
+    #home{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        height: 70vh;
+        width: calc(100%-10px);
+        margin: 0 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: end;
+    }
+    #home-container{
+        background: linear-gradient(rgba(0, 0, 0, 0.705), black);
+    }
+      
 }
 @media only screen and (max-width: 370px){
 
