@@ -26,6 +26,25 @@ body{
     margin-left: 10px;
     border-radius: 0px 0px 10px 10px;
 }
+#dispatcher{
+    background: #564c4d;
+    color: #fff;
+}
+#customer{
+    background: #be1e2d;
+    color: #fff;
+}
+#commercial{
+    background: #2e3192;
+    color: #fff;
+}
+#signup{
+    background: #f47920;
+    color: #fff;
+}
+#dispatcher:hover, #customer:hover, #commercial:hover, #signup:hover{
+    filter: contrast(4);
+}
 #second-navbar{
     display: flex;
     float: right;
@@ -259,7 +278,19 @@ body{
     color: #f47920;
     margin-bottom: 40px;
 }
-
+#member-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #2e3192;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+#member-btn:hover{
+    background: #f47920;
+}
 
 #divider{
     background: #f47920;
