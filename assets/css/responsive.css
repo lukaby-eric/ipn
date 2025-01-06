@@ -1,0 +1,125 @@
+
+@media only screen and (max-width: 1000px){
+    #contain{
+        width: 100%;
+        position: relative;
+    }
+    #first-navbar{
+        display: block;
+        position: absolute;
+        z-index: 222;
+        width: 100%;
+        display: none;
+    }
+    #second-navbar{
+        display: block;
+        position: absolute;
+        z-index: 222;
+        width: 100%;
+        margin-top: 0px;
+        display: none;
+    }
+    #firstnav-btn{
+        background: #c8da3d;
+        display: flex;
+        float: right;
+        position: relative;
+        z-index: 222;
+    }
+    #secondnav-btn{
+        background: #0033ff;
+        display: flex;
+        float: right;
+        position: relative;
+        z-index: 222;
+    }
+    #first-navbar a{
+        padding: 20px;
+        margin-left: 10px;
+        border-radius: 0px 0px 0px 0px;
+        margin-top: -5px;
+    }
+    #firstnav:checked~#first-navbar{
+        display: block;
+    }
+    
+    #secondnav:checked~#second-navbar{
+        display: block;
+    }
+}
+@media only screen and (max-width: 770px){
+    #home h5, #faq-home-container h5{
+        font-weight: 100;
+    }
+}
+@media only screen and (max-width: 577px){
+    #home,#faq-home{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        height: 70vh;
+        width: calc(100%-10px);
+        margin: 0 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: end;
+    }
+    #home-container, #faq-home-container{
+        background: linear-gradient(rgba(0, 0, 0, 0.705), black);
+    }
+    #IPNnetwork .card img{
+        width: 80px;
+        height: 80px;
+        margin-bottom: -30px;
+    }
+    #divide{
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width: 460px){
+    .navbar-brand img{
+        width: 150px;
+    }
+    #firstnav-btn{
+        padding: 5px 10px;
+    }
+    #secondnav-btn{
+        padding: 5px 10px;
+    }
+    #home h2{
+        font-size: 22px;
+    }
+    #home h5{
+        font-size: 15px;
+    }
+    #home button{
+        font-size: 10px;
+    }
+      
+}
+@media only screen and (max-width: 370px){
+
+    #firstnav-btn{
+        width: 100%;
+        margin-top: -20px;
+        border-radius: 0;
+    }
+    #secondnav-btn{
+        width: 100%;
+        margin-right: 0px;
+        margin-top: -5px;
+        border-radius: 0;
+    }
+    #first-navbar{
+      margin-top: 55px;
+    }
+    #second-navbar{
+        margin-top: 55px;
+    }
+    #first-navbar a{
+        padding: 10px;
+        margin-left: 0px;
+    }
+}

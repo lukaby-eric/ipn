@@ -1,0 +1,501 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    list-style: none;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+
+body{
+    background: black;
+}
+/* *************************************  NAVBAR   **************************************** */
+.navbar-brand img{
+    width: 200px;
+}
+#first-navbar{
+    display: flex;
+    float: right;
+    position: relative;
+    z-index: 222;
+}
+#first-navbar a{
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+#dispatcher{
+    background: #564c4d;
+    color: #fff;
+}
+#customer{
+    background: #be1e2d;
+    color: #fff;
+}
+#commercial{
+    background: #2e3192;
+    color: #fff;
+}
+#signup{
+    background: #f47920;
+    color: #fff;
+}
+#dispatcher:hover, #customer:hover, #commercial:hover, #signup:hover{
+    filter: contrast(4);
+}
+#second-navbar{
+    display: flex;
+    float: right;
+    background: #2b2a2a;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: -70px;
+    position: relative;
+    z-index: 222;
+    overflow: hidden;
+}
+#second-navbar a{
+    color: white;
+}
+#second-navbar a:hover{
+    background-color: #000;   
+}
+#firstnav-btn{
+    display: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 40px;
+}
+#secondnav-btn{
+    display: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+/* --------------      HOME    ------------------ */
+
+#home{
+    position: relative;
+    background: url(../images/fire\ fightwrs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: calc(100%-40px);
+    margin: 0 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+}
+#home-container{
+    background: black;
+    padding: 50px 20px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    
+}
+#home-container h5{
+    line-height: 1.5;
+}
+#home-container button{
+    background: #f47920;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+#home-container button:hover{
+    background: #ffffff;
+    color: black;
+    cursor: pointer;
+}
+
+/* --------------    SERVISES    ----------------- */
+#services{
+    display: flex;
+    align-items: center;
+}
+#services .col-md-8 .card{
+    
+    background: #222222;
+    color: white;
+    padding: 40px 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+#services .col-md-8 h5{
+    line-height: 1.5;
+    font-weight: 100;
+}
+#services .row .col-md-4 .card{
+    position: relative;
+    background: url(../images/fire\ copy.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+#services .col-md-4 a{
+    background: #ffffff;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+#services .col-md-4 a:hover{
+    background: #f47920;
+}
+
+
+/* ---------------------------------------------------------- IPN Network Benefits ------------------------------------------------------------------------ */
+
+
+#IPNnetwork .container{
+    background: #2b2a2a;
+    border-radius: 10px;
+}
+#IPNnetwork .container h2{
+    text-align: center;
+    color: #f47920;
+}
+#IPNnetwork .card{
+    border: none;
+    outline: none;
+    background: #2b2a2a;
+    text-align: center;
+}
+#IPNnetwork .card img{
+    width: 100px;
+    height: 100px;
+}
+.carousel .carousel-item {
+	color: #fff;
+	overflow: hidden;
+	min-height: 120px;
+}
+
+.carousel .testimonial {
+	position: relative;
+}
+
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin: 1px 3px;
+	box-sizing: border-box;
+}
+.carousel-indicators li {	
+	background: #e2e2e2;
+	border: 4px solid #fff;
+}
+.carousel-indicators li.active {
+	color: #fff;
+	background: #f47920;    
+	border: 5px double;    
+}
+/* ---------------------------------------------------------- IPN Network Benefits ends ------------------------------------------------------------------------ */
+
+#incidents .col-md-6 .card{
+    border: none;
+    outline: none;
+    background: #222222;
+    color: white;
+    padding: 40px 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+#incidents .col-md-3 h5{
+    line-height: 1.5;
+    font-weight: 100;
+}
+#incidents .row .col-md-3 .card{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: end;
+}
+#police{
+    background: url(../images/police.jpg);
+}
+#rescue{
+    background: url(../images/helicopter.jpg);
+}
+#incidents .col-md-3 a{
+    background: #ffffff;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 0 10px 0 10px;
+    text-decoration: none;
+    color: black;
+}
+#incidents .col-md-3 a:hover{
+    background: #f47920;
+}
+
+/* ----------------------------------------member---------------------------------------------------- */
+
+#member .col-md-4{
+    margin-bottom: 10px;
+}
+#member .card{
+    height: 100%;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 90px;
+    border-radius: 10px;
+}
+#member .card button{
+    position: absolute;
+    bottom: 20px;
+}
+#member .card i{
+    font-size: 25px;
+    font-weight: 100;
+}
+#member .container h2{
+    text-align: center;
+    color: #f47920;
+    margin-bottom: 40px;
+}
+#member-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #2e3192;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+#member-btn:hover{
+    background: #f47920;
+}
+
+#divider{
+    background: #f47920;
+    height: 20px;
+    width: 100%;
+}
+/* footer */
+
+#footer img{
+    height: 70px;
+}
+#footer-links{
+    margin-bottom: 10px;
+}
+#footer-links li{
+    padding: 5px 0;
+}
+#footer-links a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0;
+}
+#footer-links a::after{
+    content: "";
+    height: 2px;
+    width: 170px;
+    background: #f47920;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#footer-links a:hover{
+    color: #f47920;
+}
+#footer-links i{
+    background: #fff;
+    padding: 10px 10px 0 10px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#footer-links i:hover{
+    background: #2e3192;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+#divide{
+    background: #f47920;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: none;
+}
+
+
+#footer-logo{
+    color: white;
+}
+#footer-logo a{
+    color: white;
+    text-decoration: underline;
+    margin-right: 8px;
+}
+#footer-logo a:hover{
+    color: #f47920;
+    text-decoration: dotted;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+                                                                               FAQ PAGE
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+/* --------------      HOME    ------------------ */
+
+#faq-home{
+    position: relative;
+    background: url(../images/dispachers.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: calc(100%-40px);
+    margin: 0 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+}
+#faq-home-container{
+    background: black;
+    padding: 50px 20px;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    
+}
+#faq-home-container h5{
+    line-height: 1.5;
+}
+
+
+/* user accordions*/
+.accordion-item{
+    background: black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.accordion-button{
+    background: black;
+    color: #e2e2e2;
+    font-size: inherit;
+    border-radius: 10px;
+}
+.accordion-button:hover{
+    background: rgba(126, 108, 5, 0.308);
+}
+.accordion-button:not(.collapsed){
+    background: black;
+    color: #e2e2e2;
+}
+.accordion-button:focus{
+    box-shadow: none;
+}
+.accordion-header{
+    background: black;
+    border-radius: 10px;
+}
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='hsl(240, 100%, 40%)' class='bi bi-check-circle-fill' viewBox='0 0 16 16'%3E%3Cpath d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z'/%3E%3C/svg%3E");}
+.accordion-button:not(.collapsed)::after{
+    rotate: 180deg;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='hsl(0, 100%, 40%)' class='bi bi-x-circle-fill' viewBox='0 0 16 16'%3E%3Cpath d='M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z'/%3E%3C/svg%3E");
+}
+/* --------------    users    ----------------- */
+.new-users-title{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.new-users-title img{
+    width: 80PX;
+    margin-right: 10px;
+}
+.new-users-title h2{
+    color: #f47920;
+}
+/* ------------------------------------------- */
+#users-container{
+    display: flex;
+    align-items: center;
+}
+#users-container .col-md-8 .card{
+    margin-bottom: 20px;
+    background: #222222;
+    color: white;
+    padding: 40px 20px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+#users-container .col-md-8 h5{
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+#users-container .row .col-md-4 #firstt-card{
+    position: relative;
+    background: url(../images/firefighter.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#users-container .row .col-md-4 #secondd-card{
+    background: #201f1f;
+    color: white;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linee{
+    height: 2px;
+    width: 60%;
+    background: #be1e2d;
+    margin: 10px 0;
+}
+#users-container .row .col-md-4 #secondd-card button{
+    width: fit-content;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #f47920;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
